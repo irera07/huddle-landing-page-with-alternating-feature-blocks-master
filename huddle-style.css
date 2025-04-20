@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.top-container{
+    background-color: hsl(209, 46%, 73%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 100%;
+}
+.try-it-free{
+    width: 30%;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+.try-it-free button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0;
+    border: 0;
+}
+.build-community{
+    background-image: url(images/bg-hero-mobile.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+.build-describtion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.build-describtion h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.build-describtion p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13.8px;
+    margin: 0;
+}
+.build-describtion button{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+}
+.build-describtion button:hover{
+    cursor: pointer;
+}
+.build-image{
+    width: 100%;
+}
+.build-image img{
+    width: 100%;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+
+}
+.same{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px; 
+    border-radius: 10px;
+}
+.photo{
+    width: 100%;
+}
+.photo img{
+    width: 100%;
+}
+.describtion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.describtion h1{
+    margin: 0;
+    font-size: 20px;
+}
+.describtion p{
+    text-align: center;
+    color: hsl(208, 11%, 55%);
+    margin: 0;
+    font-size: 14px;
+}
+.describtion button{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+}
+.describtion button:hover{
+    cursor: pointer;
+}
+.ready{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.ready h1{
+    font-size: 17px;
+}
+
+.footer-container{
+    background-color: hsl(192, 100%, 9%);   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 100px;
+    gap: 20px;
+}
+.footer-logo{
+    background-color: #f5f5f5;
+}
+.address{
+    display: flex;
+    gap: 20px;
+}
+.address img{
+    width: 20px;
+    height: 20px;
+}
+.address p{
+    margin: 0;
+}
+.address-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-links p{
+    margin: 0;
+}
+.footer-links p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.icon:hover{
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}
