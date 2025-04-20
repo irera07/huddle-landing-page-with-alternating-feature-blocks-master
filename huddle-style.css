@@ -43,6 +43,9 @@ body{
     padding: 0;
     border: 0;
 }
+.try-it-free button:hover{
+    cursor: pointer;
+}
 .build-community{
     background-image: url(images/bg-hero-mobile.svg);
     display: flex;
@@ -209,4 +212,134 @@ body{
 .copyright{
     text-align: center;
     font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .try-it-free{
+        width: 20%;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .build-community{
+        background-image: url(images/bg-hero-desktop.svg);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px;
+        gap: 20px
+    }
+    .build-describtion{
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        gap: 20px;
+    }
+    .build-describtion h1{
+        font-size: 25px;
+        
+    }
+    .build-describtion p{
+        font-size: 13px;
+    }
+    .build-describtion button{
+        width: 50%;
+    }
+    .build-image{
+        width: 150%;
+    }
+
+    .second-container{
+        padding: 50px;
+    
+    }
+    .same{
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 25px;
+        padding: 25px; 
+    }
+    .following-conversation{
+        flex-direction: row;
+    }
+    .describtion{
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px;
+    }
+    .describtion h1{
+        margin: 0;
+        font-size: 20px;
+    }
+    .describtion p{
+        text-align: left;
+        font-size: 12px;
+    }
+    .describtion button{
+        width: 50%;
+    }
+    .ready{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 10px;
+    }
+    .footer-logo{
+        width: 50%;
+    }
+    .footer-logo img{
+        width: 100%;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        grid-template-rows: repeat(3, 10%);
+        row-gap: 30px;
+        column-gap: 100px;
+        padding-top: 50px;
+        font-size: 10px;
+    }
+    .p1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .p2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .p3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .p4{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .p5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .p6{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .footer-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+
+    }
 }
