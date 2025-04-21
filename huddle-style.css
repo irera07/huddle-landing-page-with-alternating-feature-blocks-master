@@ -21,7 +21,7 @@ body{
 .logo-container{
     display: flex;
     justify-content: space-between;
-    padding: 20px 10px;
+    padding: 25px 15px;
 }
 .logo{
     width: 30%;
@@ -65,7 +65,7 @@ body{
 .build-describtion h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
 }
 .build-describtion p{
@@ -178,13 +178,15 @@ body{
 }
 .address{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 .address img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 .address p{
+    font-size: 14px;
     margin: 0;
 }
 .address-container{
