@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 .top-container{
-    background-color: hsl(209, 46%, 73%);
+    background-color: hsl(193, 100%, 96%);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -106,8 +106,8 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 25px; 
+    gap: 50px;
+    padding: 50px 30px; 
     border-radius: 10px;
 }
 .photo{
@@ -162,10 +162,19 @@ body{
     flex-direction: column;
     padding: 10px;
     padding-top: 100px;
-    gap: 20px;
+    gap: 50px;
 }
 .footer-logo{
+    width: 50%;
     background-color: #f5f5f5;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .address{
     display: flex;
